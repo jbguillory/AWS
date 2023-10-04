@@ -1,0 +1,11 @@
+aws s3 ls   ---> List your files
+aws s3 ls s3://newbucket --recursive
+aws s3 mb://newbucket --region us-east-1 ---> make bucket
+aws s3 rb s3://newbucket --force    ---> delete bucket
+aws s3 cp file1 s3://newbucket  ------> cp a file from cuurent machine to s3
+aws s3 cp s3://newbucker/file1 /tmp   
+aws rm s3://buckert/404.html -----> delete
+aws s3 cp file1 s3://newbucket --recursive  ---> copy folders
+aws s3 mv file1 s3://newbucket   ---> deletes and moves
+aws sync / s3://bucket
+
